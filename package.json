@@ -1,0 +1,23 @@
+{
+  "name": "nodejstest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./js/scripts.js",
+  "scripts": {
+    "build": "set NODE_ENV=production webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/russellsean/nodejsTest.git"
+  },
+  "author": "Sean Russell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/russellsean/nodejsTest/issues"
+  },
+  "homepage": "https://github.com/russellsean/nodejsTest#readme",
+  "dependencies": {
+    "webpack": "^2.3.3"
+  }
+}
